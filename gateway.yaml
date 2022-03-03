@@ -35,3 +35,7 @@ spring:
           uri: http://localhost:8009
           predicates:
             - Path=/yanki/**
+        - id: operation
+          uri: http://localhost:8010
+          predicates:
+          - Path=/operation/**
