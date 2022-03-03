@@ -43,3 +43,7 @@ spring:
           uri: http://localhost:8011
           predicates:
           - Path=/bootcoin/**
+        - id: request
+          uri: http://localhost:8012
+          predicates:
+          - Path=/request/**

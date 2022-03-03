@@ -1,0 +1,15 @@
+server:
+  port: 8012
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      default-zone: http://localhost:8761/eureka
+    instance:
+      hostname: localhost
+#Database
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://edwar123:edwar123@cluster0.naakg.mongodb.net/BMSP03Request?retryWrites=true&w=majority
